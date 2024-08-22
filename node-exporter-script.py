@@ -125,7 +125,7 @@ EOF
 
 # Welcome message
 clear
-print_centered "Welcome to the Node Exporter Script" "BLUE"
+print_centered "Welcome to the Node Exporter Installer" "BLUE"
 print_centered "for Ubuntu and other Linux distributions" "BLUE"
 echo
 
