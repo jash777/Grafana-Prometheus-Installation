@@ -8,7 +8,7 @@ This repository contains a comprehensive guide for installing and configuring Pr
 
 ## 🚀 Quick Start
 
-Visit our [Installation Guide](https://yourusername.github.io/monitoring-installation-guide/) to get started with setting up your monitoring stack.
+Visit our [Installation Guide](https://jash777.github.io/Grafana-Prometheus-Installation/) to get started with setting up your monitoring stack.
 
 ## 📋 Table of Contents
 
@@ -48,7 +48,7 @@ Our guide covers the following main sections:
 3. Setting up Node Exporter
 4. Configuring Prometheus to scrape Node Exporter metrics
 
-Each section includes detailed commands with explanations. Visit our [Installation Guide](https://jash777.github.io/monitoring-installation-guide/) for the full instructions.
+Each section includes detailed commands with explanations. Visit our [Installation Guide](https://jash777.github.io/Grafana-Prometheus-Installation/) for the full instructions.
 
 ## 💻 Usage
 
@@ -83,9 +83,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-Your Name - [@your_twitter](https://x.com/alpha_sec79) - alphasec79@alphasec.cloud
+Your Name - [@alpha_sec79](https://x.com/alpha_sec79) - alphasec79@alphasec.cloud
 
-Project Link: [https://github.com/jash777/monitoring-installation-guide](https://github.com/yourusername/monitoring-installation-guide)
+Project Link: [https://github.com/jash777/monitoring-installation-guide](https://github.com/jash777/Grafana-Prometheus-Installation)
 
 ---
 
