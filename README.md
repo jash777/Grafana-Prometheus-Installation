@@ -39,7 +39,7 @@ Before you begin, ensure you have:
 - Basic familiarity with the command line
 - An active internet connection
 
-## 📚 Installation Steps
+## 📚  Manual Installation Steps | Only If you are intended to install manually go with this instructions 
 
 Our guide covers the following main sections:
 
