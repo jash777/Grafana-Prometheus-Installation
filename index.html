@@ -163,7 +163,7 @@ sudo systemctl enable node_exporter</code><button class="copy-button" onclick="c
     <h3>Edit Prometheus configuration</h3>
     <pre><code>sudo nano /etc/prometheus/prometheus.yml
 
-# Add the following to the scrape_configs section:
+# Add the following to the section:
   - job_name: 'node_exporter'
     static_configs:
       - targets: ['localhost:9100']</code><button class="copy-button" onclick="copyCode(this)">Copy</button></pre>
