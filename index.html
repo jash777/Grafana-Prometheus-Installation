@@ -6,33 +6,35 @@
     <title>Prometheus, Grafana, and Node Exporter Installation Guide</title>
     <style>
         body {
-            font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-            line-height: 1.5;
-            color: #24292e;
-            background-color: #fff;
-            max-width: 800px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            line-height: 1.6;
+            color: #e1e4e8;
+            background-color: #0d1117;
+            max-width: 900px;
             margin: 0 auto;
             padding: 20px;
         }
         h1, h2, h3 {
-            border-bottom: 1px solid #eaecef;
-            padding-bottom: 0.3em;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 0.5em;
+            color: #c9d1d9;
         }
         pre {
-            background-color: #f6f8fa;
-            border-radius: 3px;
-            font-size: 85%;
-            line-height: 1.45;
+            background-color: #161b22;
+            border-radius: 5px;
+            font-size: 90%;
+            line-height: 1.6;
             overflow: auto;
             padding: 16px;
             position: relative;
+            color: #d0d0d0;
         }
         code {
-            background-color: rgba(27,31,35,.05);
+            background-color: #0d1117;
             border-radius: 3px;
-            font-size: 85%;
-            margin: 0;
+            font-size: 90%;
             padding: .2em .4em;
+            color: #c9d1d9;
         }
         .copy-button {
             position: absolute;
@@ -40,13 +42,34 @@
             right: 5px;
             padding: 5px 10px;
             border: none;
-            border-radius: 3px;
-            background-color: #0366d6;
-            color: white;
+            border-radius: 5px;
+            background-color: #00d084;
+            color: #0d1117;
             cursor: pointer;
+            font-size: 0.85em;
         }
         .copy-button:hover {
-            background-color: #0056b3;
+            background-color: #00b268;
+        }
+        a {
+            color: #00d084;
+        }
+        a:hover {
+            color: #00b268;
+            text-decoration: underline;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .note {
+            background-color: #30363d;
+            border-left: 4px solid #00d084;
+            padding: 10px;
+            margin: 20px 0;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -170,6 +193,13 @@ sudo systemctl enable node_exporter</code><button class="copy-button" onclick="c
 
     <h3>Restart Prometheus to apply changes</h3>
     <pre><code>sudo systemctl restart prometheus</code><button class="copy-button" onclick="copyCode(this)">Copy</button></pre>
+
+    <h2>Additional Resources</h2>
+    <ul>
+        <li><a href="https://prometheus.io/docs/introduction/overview/" target="_blank">Prometheus Documentation</a></li>
+        <li><a href="https://grafana.com/docs/" target="_blank">Grafana Documentation</a></li>
+        <li><a href="https://github.com/prometheus/node_exporter" target="_blank">Node Exporter GitHub Repository</a></li>
+    </ul>
 
     <script>
         function copyCode(button) {
