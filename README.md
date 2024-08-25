@@ -83,7 +83,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-Your Name - [@alpha_sec79](https://x.com/alpha_sec79) - alphasec79@alphasec.cloud
+Alphasec79 - [@alpha_sec79](https://x.com/alpha_sec79) - alphasec79@alphasec.cloud
 
 Project Link: [https://github.com/jash777/monitoring-installation-guide](https://github.com/jash777/Grafana-Prometheus-Installation)
 
